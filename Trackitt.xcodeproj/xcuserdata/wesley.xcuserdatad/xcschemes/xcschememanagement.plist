@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Avaq.eu GPS Tracking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Conneqtech tracking portal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FleetPrint.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>GPS Partner Protrack APP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>My GPS Tracker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Rental Tracker APP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Skrepferlet APP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Trackitt.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>synio track GPS tracking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2B497C1C1D9FF88300874121</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B497C3E1DA0295200874121</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B497C601DA03CD000874121</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B5625791DB2797400ABD78A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B56259B1DB2865300ABD78A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B79F4011D81CAF60028D10C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B79F41C1D81CC0F0028D10C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2BD15ABB1D9D724400EF62CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2BF9444A1DCC9E980072E8BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>569EADD21D09D08B00639D21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

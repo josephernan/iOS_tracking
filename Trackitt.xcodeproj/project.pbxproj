@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B56259E1DB2865300ABD78A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EADDA1D09D08B00639D21 /* AppDelegate.m */; };
+		2B56259F1DB2865300ABD78A /* GeoLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A1C0B61D0C703700095B09 /* GeoLocationService.m */; };
+		2B5625A01DB2865300ABD78A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A1C09D1D0BE86D00095B09 /* WebViewController.m */; };
+		2B5625A11DB2865300ABD78A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EADD71D09D08B00639D21 /* main.m */; };
+		2B5625A21DB2865300ABD78A /* GeoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A1C0B91D0C7BBA00095B09 /* GeoInfo.m */; };
+		2B5625A41DB2865300ABD78A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A1C0BD1D0C8C0200095B09 /* SystemConfiguration.framework */; };
+		2B5625A51DB2865300ABD78A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A1C0BB1D0C846D00095B09 /* CoreLocation.framework */; };
+		2B5625AA1DB2865300ABD78A /* notif.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2B5727561D780CFC000A09EE /* notif.caf */; };
+		2B5625AC1DB2865300ABD78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569EADE21D09D08B00639D21 /* Assets.xcassets */; };
+		2B5625AD1DB2865300ABD78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569EADE41D09D08B00639D21 /* LaunchScreen.storyboard */; };
+		2B5625AE1DB2865300ABD78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569EADDF1D09D08B00639D21 /* Main.storyboard */; };
+		2B5625B81DB28A1800ABD78A /* trackitt.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5625B71DB28A1800ABD78A /* trackitt.xcassets */; };
+		2B5625BC1DB28BB600ABD78A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B5625BB1DB28BB600ABD78A /* GoogleService-Info.plist */; };
+		AFF2C6B8E59ECCE800F02A0C /* libPods-Trackitt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C45AF1B25BEBA7C78C0EFB /* libPods-Trackitt.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5625B51DB2865300ABD78A /* Trackitt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackitt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5625B61DB2865300ABD78A /* trackitt.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = trackitt.plist; path = "/Users/wesley/Downloads/My GPS Tracker-2/trackitt.plist"; sourceTree = "<absolute>"; };
+		2B5625B71DB28A1800ABD78A /* trackitt.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = trackitt.xcassets; path = "My GPS Tracker/trackitt.xcassets"; sourceTree = "<group>"; };
+		2B5625B91DB28BAF00ABD78A /* Reseller-trackitt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Reseller-trackitt"; sourceTree = "<group>"; };
+		2B5625BB1DB28BB600ABD78A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "My GPS Tracker/Reseller-trackitt/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B5727511D780AC7000A09EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2B5727561D780CFC000A09EE /* notif.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notif.caf; sourceTree = "<group>"; };
+		569EADD71D09D08B00639D21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		569EADD91D09D08B00639D21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		569EADDA1D09D08B00639D21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		569EADE01D09D08B00639D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		569EADE21D09D08B00639D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569EADE51D09D08B00639D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		569EADE71D09D08B00639D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A1C09C1D0BE86D00095B09 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		56A1C09D1D0BE86D00095B09 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		56A1C0B51D0C703700095B09 /* GeoLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoLocationService.h; sourceTree = "<group>"; };
+		56A1C0B61D0C703700095B09 /* GeoLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoLocationService.m; sourceTree = "<group>"; };
+		56A1C0B81D0C7BBA00095B09 /* GeoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoInfo.h; sourceTree = "<group>"; };
+		56A1C0B91D0C7BBA00095B09 /* GeoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoInfo.m; sourceTree = "<group>"; };
+		56A1C0BB1D0C846D00095B09 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56A1C0BD1D0C8C0200095B09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65C45AF1B25BEBA7C78C0EFB /* libPods-Trackitt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Trackitt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B9FE0845821D9683F00B5E /* Pods-Trackitt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trackitt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trackitt/Pods-Trackitt.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A54BD2CBC4033EEE1A11DE /* Pods-Trackitt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trackitt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trackitt/Pods-Trackitt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5625A31DB2865300ABD78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5625A41DB2865300ABD78A /* SystemConfiguration.framework in Frameworks */,
+				2B5625A51DB2865300ABD78A /* CoreLocation.framework in Frameworks */,
+				AFF2C6B8E59ECCE800F02A0C /* libPods-Trackitt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5727531D780ADF000A09EE /* snd */ = {
+			isa = PBXGroup;
+			children = (
+				2B5727561D780CFC000A09EE /* notif.caf */,
+			);
+			name = snd;
+			sourceTree = "<group>";
+		};
+		569EADCA1D09D08B00639D21 = {
+			isa = PBXGroup;
+			children = (
+				2B5625B71DB28A1800ABD78A /* trackitt.xcassets */,
+				2B5625BB1DB28BB600ABD78A /* GoogleService-Info.plist */,
+				569EADD51D09D08B00639D21 /* Mobile portal */,
+				569EADD41D09D08B00639D21 /* Products */,
+				F7EEBE786FEC4F7BCB95CEB8 /* Frameworks */,
+				5997FD4DC21CC99062CF6034 /* Pods */,
+				2B5625B61DB2865300ABD78A /* trackitt.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		569EADD41D09D08B00639D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5625B51DB2865300ABD78A /* Trackitt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569EADD51D09D08B00639D21 /* Mobile portal */ = {
+			isa = PBXGroup;
+			children = (
+				2B5625B91DB28BAF00ABD78A /* Reseller-trackitt */,
+				2B5727531D780ADF000A09EE /* snd */,
+				569EADDA1D09D08B00639D21 /* AppDelegate.m */,
+				569EADD91D09D08B00639D21 /* AppDelegate.h */,
+				56A1C09C1D0BE86D00095B09 /* WebViewController.h */,
+				56A1C09D1D0BE86D00095B09 /* WebViewController.m */,
+				569EADDF1D09D08B00639D21 /* Main.storyboard */,
+				569EADE21D09D08B00639D21 /* Assets.xcassets */,
+				569EADE41D09D08B00639D21 /* LaunchScreen.storyboard */,
+				569EADE71D09D08B00639D21 /* Info.plist */,
+				56A1C0AD1D0C701D00095B09 /* Services */,
+				569EADD61D09D08B00639D21 /* Supporting Files */,
+			);
+			name = "Mobile portal";
+			path = "My GPS Tracker";
+			sourceTree = "<group>";
+		};
+		569EADD61D09D08B00639D21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				569EADD71D09D08B00639D21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56A1C0AD1D0C701D00095B09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				56A1C0B81D0C7BBA00095B09 /* GeoInfo.h */,
+				56A1C0B91D0C7BBA00095B09 /* GeoInfo.m */,
+				56A1C0B51D0C703700095B09 /* GeoLocationService.h */,
+				56A1C0B61D0C703700095B09 /* GeoLocationService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5997FD4DC21CC99062CF6034 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B9FE0845821D9683F00B5E /* Pods-Trackitt.debug.xcconfig */,
+				E7A54BD2CBC4033EEE1A11DE /* Pods-Trackitt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7EEBE786FEC4F7BCB95CEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5727511D780AC7000A09EE /* AVFoundation.framework */,
+				56A1C0BD1D0C8C0200095B09 /* SystemConfiguration.framework */,
+				56A1C0BB1D0C846D00095B09 /* CoreLocation.framework */,
+				65C45AF1B25BEBA7C78C0EFB /* libPods-Trackitt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B56259B1DB2865300ABD78A /* Trackitt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5625B21DB2865300ABD78A /* Build configuration list for PBXNativeTarget "Trackitt" */;
+			buildPhases = (
+				2B56259C1DB2865300ABD78A /* [CP] Check Pods Manifest.lock */,
+				2B56259D1DB2865300ABD78A /* Sources */,
+				2B5625A31DB2865300ABD78A /* Frameworks */,
+				2B5625A91DB2865300ABD78A /* Resources */,
+				2B5625B01DB2865300ABD78A /* [CP] Embed Pods Frameworks */,
+				2B5625B11DB2865300ABD78A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trackitt;
+			productName = "My GPS Tracker";
+			productReference = 2B5625B51DB2865300ABD78A /* Trackitt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		569EADCB1D09D08B00639D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mygpstracker;
+				TargetAttributes = {
+					2B56259B1DB2865300ABD78A = {
+						DevelopmentTeam = 9MCCUA5A8U;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 569EADCE1D09D08B00639D21 /* Build configuration list for PBXProject "Trackitt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 569EADCA1D09D08B00639D21;
+			productRefGroup = 569EADD41D09D08B00639D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B56259B1DB2865300ABD78A /* Trackitt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5625A91DB2865300ABD78A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5625AA1DB2865300ABD78A /* notif.caf in Resources */,
+				2B5625BC1DB28BB600ABD78A /* GoogleService-Info.plist in Resources */,
+				2B5625AC1DB2865300ABD78A /* Assets.xcassets in Resources */,
+				2B5625AD1DB2865300ABD78A /* LaunchScreen.storyboard in Resources */,
+				2B5625AE1DB2865300ABD78A /* Main.storyboard in Resources */,
+				2B5625B81DB28A1800ABD78A /* trackitt.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B56259C1DB2865300ABD78A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5625B01DB2865300ABD78A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trackitt/Pods-Trackitt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5625B11DB2865300ABD78A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trackitt/Pods-Trackitt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B56259D1DB2865300ABD78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B56259E1DB2865300ABD78A /* AppDelegate.m in Sources */,
+				2B56259F1DB2865300ABD78A /* GeoLocationService.m in Sources */,
+				2B5625A01DB2865300ABD78A /* WebViewController.m in Sources */,
+				2B5625A11DB2865300ABD78A /* main.m in Sources */,
+				2B5625A21DB2865300ABD78A /* GeoInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		569EADDF1D09D08B00639D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569EADE01D09D08B00639D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		569EADE41D09D08B00639D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569EADE51D09D08B00639D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5625B31DB2865300ABD78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B9FE0845821D9683F00B5E /* Pods-Trackitt.debug.xcconfig */;
+			buildSettings = {
+				APP_BUNDLE_ID = com.conneqtech.mobileportal;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Trackitt";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9MCCUA5A8U;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/trackitt.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.trackitt.app;
+				PRODUCT_NAME = Trackitt;
+				PROVISIONING_PROFILE = "9aa2a305-98e1-4627-a3d3-51c21f457677";
+				PROVISIONING_PROFILE_SPECIFIER = "Valeri Distribution";
+			};
+			name = Debug;
+		};
+		2B5625B41DB2865300ABD78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A54BD2CBC4033EEE1A11DE /* Pods-Trackitt.release.xcconfig */;
+			buildSettings = {
+				APP_BUNDLE_ID = com.conneqtech.mobileportal;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Trackitt";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9MCCUA5A8U;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/trackitt.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.trackitt.app;
+				PRODUCT_NAME = Trackitt;
+				PROVISIONING_PROFILE = "9aa2a305-98e1-4627-a3d3-51c21f457677";
+				PROVISIONING_PROFILE_SPECIFIER = "Valeri Distribution";
+			};
+			name = Release;
+		};
+		569EADE81D09D08B00639D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		569EADE91D09D08B00639D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5625B21DB2865300ABD78A /* Build configuration list for PBXNativeTarget "Trackitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5625B31DB2865300ABD78A /* Debug */,
+				2B5625B41DB2865300ABD78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569EADCE1D09D08B00639D21 /* Build configuration list for PBXProject "Trackitt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569EADE81D09D08B00639D21 /* Debug */,
+				569EADE91D09D08B00639D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569EADCB1D09D08B00639D21 /* Project object */;
+}
